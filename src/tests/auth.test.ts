@@ -1,11 +1,6 @@
 import { getAPIKey } from "../api/auth.js";
 import { describe, expect, test } from "vitest";
 
-const person = {
-  isActive: true,
-  age: 32,
-};
-
 describe("getApiKey", () => {
   test("auth header is empty", () => {
     const headers = {};
